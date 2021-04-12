@@ -13,12 +13,12 @@
 struct node {
 	int key;
 	int value;
-	struct node* next;              //노드포인터,다음 링크 (체이닝 할때 다음 노드가 어딨는지 알려줌)
+	struct node* next; //노드포인터,다음 링크 (체이닝 할때 다음 노드가 어딨는지 알려줌)
 };
 
-struct bucket {						//버켓을 만듬
-	struct node* head;              //버켓의 제일 처음노드를 가리키는 head
-	int count;                      //버켓안에 몇개의 노드가 들어가있는지 알려주는 count
+struct bucket {
+	struct node* head; //버켓의 제일 처음노드를 가리키는 head
+	int count; //버켓안에 몇개의 노드가 들어가있는지 알려주는 count
 };
 
 struct node* createNode(int key, int value);
