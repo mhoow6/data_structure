@@ -1,16 +1,15 @@
 ### 자료구조
-![QueueType](assets/QueueType.png)
-
+![QueueType](assets/QueueType.png)<br/>
 `front`부터 `rear`까지 `queue`를 순회하기 위해 `int front`와 `int rear`가 존재
 자료를 저장할 데이터는 순차 자료구조(배열)이고, 자료형은 `element`, `queue`의 기본 사이즈는 100
 
-![Q](assets/Q.png)
+![Q](assets/Q.png)<br/>
 `QueueType* Q`는 포인터 역할을 하기 위해 정의
 
 ---
 ### 함수
 #### 1. QueueType* createQueue()
-![Q](assets/createQueue.png)
+![Q](assets/createQueue.png)<br/>
 힙 메모리에서 `queueType` 만큼의 메모리를 할당받음
 여기서는 단순 큐 생성이기 때문에 `front`와 `rear`를 같은 값인 -1로 초기화
 같은 값으로 초기화 하는 이유는 큐 안에 아무것도 없음을 알림을 의미함
